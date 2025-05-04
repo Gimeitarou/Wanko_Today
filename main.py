@@ -1,3 +1,4 @@
+from autogui-101_Wankov import autogui_101
 import requests
 import webbrowser
 import datetime
@@ -11,18 +12,23 @@ Pic_num = int(input('上から何番目の写真を壁紙にしたいか、半�
 dt = datetime.datetime.today()
 year_20xx = str(dt.year - 2000)
 month = str(dt.month)
-day = str(dt.day-2)
+day = str(dt.day)
+weekday = dt.weekday()
 
-daytime_info_needed = year_20xx + '0' + month + '0' + day #Ex:250502_=_2025年5月2日
+if int(month) < 10:
+    month,day += '0','0'
+
+if weekday == 5: #saturday
+    day -= 1
+elif weekday == 6: #sunday
+    day -= 2
+
+daytime_info_needed = year_20xx + month + day #Ex:250502_=_2025年5月2日
 
 Pic_URL = f'https://www.fujitv.co.jp/meza/wanko/photo/w{daytime_info_needed}_0{Pic_num}.jpg'
+Pic_name = f'w{daytime_info_needed}_0{Pic_num}.jpg'
 
-print(Pic_URL)
-
-def Download_Setit(URL):
-        
-
-Download_Setit(Pic_URL)
+autogui_101(Pic_URL,Pic_name)
 
 #references
 #https://atmarkit.itmedia.co.jp/ait/articles/2111/02/news019.html
