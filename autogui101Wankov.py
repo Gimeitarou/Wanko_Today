@@ -6,8 +6,8 @@ import os
 def autogui_101(Pic_URL, Pic_name):
 
     #cmddef    
-    DownloadCmd = f'powershell Invoke-WebRequest -Uri {Pic_URL}'
-    OpenCmd = f'C:/Users/%username%/Downloads/{Pic_name}.jpg'
+    DownloadCmd = f'powershell Invoke-WebRequest -Uri {Pic_URL} -OutFile Downloads/{Pic_name}'
+    OpenCmd = f'C:/Users/%username%/Downloads/{Pic_name}'
 
     #download a pic on DL-dir
     pyperclip.copy(DownloadCmd)
