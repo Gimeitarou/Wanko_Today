@@ -40,3 +40,4 @@ autogui101Wankov.autogui_101(Pic_URL,Pic_name)
 #https://qiita.com/sastrum/items/518579bc00dfae3cd293
 #https://techplay.jp/column/1617
 #https://magazine.techacademy.jp/magazine/22727
+#https://www.insource.co.jp/python-gakuin/mail-backnumber/vol27.html
