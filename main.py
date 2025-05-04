@@ -1,3 +1,6 @@
+#Copyright (c) 2025 Gimeitarou
+#This software is released under the MIT License, see LICENSE.
+
 import autogui101Wankov
 import webbrowser
 import datetime
