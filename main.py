@@ -41,6 +41,5 @@ autogui101Wankov.autogui_101(Pic_URL,Pic_name)
 #references
 #https://atmarkit.itmedia.co.jp/ait/articles/2111/02/news019.html
 #https://qiita.com/sastrum/items/518579bc00dfae3cd293
-#https://techplay.jp/column/1617
 #https://magazine.techacademy.jp/magazine/22727
 #https://www.insource.co.jp/python-gakuin/mail-backnumber/vol27.html
