@@ -1,3 +1,5 @@
+#めざましテレビの「今日のわんこ」で紹介された犬の写真を毎日PCの壁紙として設定することを補助するプログラム
+
 https://github.com/user-attachments/assets/f8dcd29d-9a36-4011-bb76-fc91984dac95
 
 pictures in Demo:<br>
